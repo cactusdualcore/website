@@ -1,0 +1,16 @@
+[package]
+name = "cactuserve_session"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+crc32fast = "1.4.2"
+postcard = { version = "1.0.10", features = ["use-std"] }
+base64 = "0.22.1"
+rocket = { workspace = true, optional = true }
+serde.workspace = true
+thiserror = "1.0.63"
+
+[features]
+default = []
+rocket = ["dep:rocket"]

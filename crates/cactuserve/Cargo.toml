@@ -1,0 +1,15 @@
+[package]
+name = "cactuserve"
+version = "0.1.0-alpha.1"
+edition.workspace = true
+repository.workspace = true
+license.workspace = true
+
+[dependencies]
+rocket = { workspace = true }
+serde = { workspace = true }
+bytemuck = "1.18.0"
+maud = { version = "0.26.0", features = ["rocket"] }
+pem = "3.0.4"
+ring = { version = "0.17.8", features = ["std"] }
+tempfile = "3.12.0"

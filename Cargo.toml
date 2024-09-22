@@ -1,0 +1,12 @@
+[workspace]
+members = ["crates/cactuserve", "crates/cactuserve_session"]
+resolver = "2"
+
+[workspace.package]
+edition = "2021"
+repository = "https://github.com/cactusdualcore/website"
+license = "Unlicense"
+
+[workspace.dependencies]
+serde = "1.0.210"
+rocket = "0.5.1"
