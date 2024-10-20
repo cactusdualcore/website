@@ -11,5 +11,9 @@ serde = { workspace = true }
 bytemuck = "1.18.0"
 maud = { version = "0.26.0", features = ["rocket"] }
 pem = "3.0.4"
-ring = { version = "0.17.8", features = ["std"] }
 tempfile = "3.12.0"
+thiserror = "1.0.63"
+cactuserve_sessions = { path = "../cactuserve_sessions" }
+anyhow = "1.0.90"
+bitflags = { version = "2.6.0", features = ["std"] }
+smallvec = "1.13.2"

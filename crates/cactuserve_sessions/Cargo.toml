@@ -1,0 +1,13 @@
+[package]
+name = "cactuserve_sessions"
+version = "0.1.0"
+edition.workspace = true
+repository.workspace = true
+license.workspace = true
+
+[dependencies]
+rocket = { workspace = true }
+base64 = "0.22.1"
+ring = { version = "0.17.8", features = ["std"] }
+thiserror = "1.0.63"
+chacha20 = "0.9.1"
